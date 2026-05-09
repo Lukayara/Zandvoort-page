@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palace Hotel - Zandvoort aan Zee | Luxe Appartementen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="theme-toggle" type="button" onclick="toggleDarkMode()" title="Wissel naar donkere modus" aria-label="Wissel naar donkere modus" aria-pressed="false">🌙</button>
+    
+    <header>
+        <h1>🏨 Palace Hotel</h1>
+        <p class="subtitle">Luxe Appartementen in Zandvoort aan Zee</p>
+        <p class="subtitle" style="font-size: 1.3rem; opacity: 0.85;">Ervaar het ultieme comfort direct aan het strand</p>
+        <div class="cta-buttons">
+            <button class="cta-btn cta-btn-primary" type="button" onclick="scrollToSection('reserveren')">Nu Boeken</button>
+            <button class="cta-btn cta-btn-secondary" type="button" onclick="scrollToSection('over-ons')">Meer Informatie</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="over-ons">
+            <div class="section-wrapper">
+                <h2>Over Palace Hotel</h2>
+                <p class="section-description">
+                    Welkom bij het meest exclusieve hotel in Zandvoort aan Zee. Het Palace Hotel is een tempel van luxe, comfort en elegantie, 
+                    waar u uw droomvakantie zult beleven. Met een prime locatie direct aan het beroemde Zandvoort-strand, bent u slechts enkele 
+                    stappen verwijderd van de prachtige zee, het gouden zand en het levendige strandleven.
+                </p>
+                <p class="section-description">
+                    Onze appartementen zijn ontworpen met aandacht voor detail en voorzien van alle moderne voorzieningen. Elk appartement beschikt 
+                    over een privé balkon met adembenemend zeegezicht, luxe slaapkamers, volledig ingerichte keukens en spa-achtige badkamers. 
+                    Onze gasten genieten van vijfsterrenservice en persoonlijke aandacht 24/7.
+                </p>
+            </div>
+        </section>
+        
+        <section id="foto-buiten">
+            <h2>📸 Palace Hotel & Zeezicht</h2>
+            <p class="section-description">
+                Bekijk echte beelden van Palace Hotel Zandvoort, de lounge aan zee en balkons met uitzicht over strand en Noordzee.
+            </p>
+            <div class="gallery-outside">
+                <div class="gallery-item item-1">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/PALACE_HOTEL_CONTENT_SHOOT_DEC_2022_FOTOS-16-of-77-scaled.jpg" alt="ZIZO Lounge van Palace Hotel met uitzicht op zee" loading="lazy" referrerpolicy="no-referrer">
+                    <p>ZIZO Lounge met zeezicht</p>
+                </div>
+                <div class="gallery-item item-2">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/08/foto-9.jpg" alt="Luxe balkon met stoelen en uitzicht op zee bij Palace Hotel" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Luxe balkon met zeezicht</p>
+                </div>
+                <div class="gallery-item item-3">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/Palace-Hotel-1.jpg" alt="Wellness Suite Plus met grote ramen en uitzicht op de Noordzee" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Suite met uitzicht op zee</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="foto-binnen">
+            <h2>🏠 De Luxe van Binnen</h2>
+            <p class="section-description">
+                Ontdek het spectaculaire interieur van onze appartementen. Elk vertrek is zorgvuldig ingericht met premium materialen en state-of-the-art voorzieningen.
+            </p>
+            <div class="gallery-inside">
+                <div class="gallery-item item-1">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/1.jpg" alt="Standard Room slaapkamer van Palace Hotel Zandvoort" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Standard Room slaapkamer</p>
+                </div>
+                <div class="gallery-item item-2">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/Palace-Hotel-2.jpg" alt="Wellness Suite Plus lounge en slaapgedeelte" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Wellness Suite Plus lounge</p>
+                </div>
+                <div class="gallery-item item-3">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/08/Foto-1.jpg" alt="Apartment 105 woonkamer met open keuken" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Open keuken en woonkamer</p>
+                </div>
+                <div class="gallery-item item-4">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/Palace-Hotel-5.jpg" alt="Wellness Suite Plus badkamer met ruime douche" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Ruime wellness-douche</p>
+                </div>
+                <div class="gallery-item item-5">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/Palace-Hotel-4.jpg" alt="Privésauna in de Wellness Suite Plus" loading="lazy" referrerpolicy="no-referrer">
+                    <p>Privésauna</p>
+                </div>
+                <div class="gallery-item item-6">
+                    <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/01/4_JAN_2024_PALACE_HOTEL_FOTO-51-of-74-scaled.jpg" alt="ZIZO Lounge interieur bij Palace Hotel" loading="lazy" referrerpolicy="no-referrer">
+                    <p>ZIZO Lounge interieur</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kamers">
+            <h2>🛏️ Kamers & Appartementen</h2>
+            <p class="section-description">
+                Kies uit echte kamertypes van Palace Hotel Zandvoort, met foto's die passen bij de genoemde kamer.
+            </p>
+            <div class="room-cards">
+                <div class="room-card">
+                    <div class="room-card-image">
+                        <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/2.jpg" alt="Standard Room met bed, raam en balkonzicht" loading="lazy" referrerpolicy="no-referrer">
+                        <span class="room-card-badge">Kamer</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-card-title">Standard Room</h3>
+                        <p class="room-card-price">Met balkon</p>
+                        <ul class="room-card-features">
+                            <li>4e t/m 16e verdieping</li>
+                            <li>Balkon met uitzicht over Zandvoort</li>
+                            <li>Airconditioning</li>
+                            <li>Douche en toilet</li>
+                            <li>Nespresso en theefaciliteiten</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <div class="room-card-image">
+                        <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/08/Foto-1.jpg" alt="Apartment 105 met woonkamer en open keuken" loading="lazy" referrerpolicy="no-referrer">
+                        <span class="room-card-badge" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);">Populair</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-card-title">Apartment 105</h3>
+                        <p class="room-card-price">Voor 4 personen</p>
+                        <ul class="room-card-features">
+                            <li>Grote slaapkamer en kleine kamer</li>
+                            <li>Volledig ingerichte keuken</li>
+                            <li>Ruime Woonkamer</li>
+                            <li>Balkon op het zuiden</li>
+                            <li>Mooi zeezicht</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <div class="room-card-image">
+                        <img src="https://www.palace-hotel.nl/wp-content/uploads/2024/02/Palace-Hotel-1.jpg" alt="Wellness Suite Plus met zeezicht en ruim balkon" loading="lazy" referrerpolicy="no-referrer">
+                        <span class="room-card-badge" style="background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);">Luxe</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-card-title">Wellness Suite Plus</h3>
+                        <p class="room-card-price">Zeezicht & privébalkon</p>
+                        <ul class="room-card-features">
+                            <li>Adembenemend uitzicht op zee</li>
+                            <li>Ruim privébalkon</li>
+                            <li>Privésauna</li>
+                            <li>Tweepersoons ligbad</li>
+                            <li>Open haard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="voorzieningen">
+            <h2>✨ Premium Voorzieningen</h2>
+            <p class="section-description">
+                Het Palace Hotel biedt een volledige reeks van vijfsterren voorzieningen om uw verblijf onvergetelijk te maken.
+            </p>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <strong>🛏️ Premium Bedding</strong>
+                    <p>Egyptische katoen beddengoed van het hoogste kwaliteitsniveau voor optimaal comfort</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🍽️ Gourmet Keuken</strong>
+                    <p>Volledig uitgeruste keuken met premium apparatuur en hoogwaardig serviesgoed</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🛁 Spa Badkamer</strong>
+                    <p>Luxe badkamer met regendouche, massagejets en premium toiletartikelen</p>
+                </div>
+                <div class="feature-box">
+                    <strong>📺 Entertainment</strong>
+                    <p>55" Smart TV, Netflix, Disney+, Spotify en supersnelle glasvezel internet</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🌊 Privé Balkon</strong>
+                    <p>Ruim balkon met zeegezicht, perfect voor ontbijt en zonsondergang</p>
+                </div>
+                <div class="feature-box">
+                    <strong>❄️ Klimaatbeheer</strong>
+                    <p>Geavanceerde airconditioning en verwarming voor het perfecte klimaat</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🚗 Parkeerplaats</strong>
+                    <p>Beveiligde ondergrondse parkeergarage voor al uw voertuigen</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🏋️ Fitness Center</strong>
+                    <p>Moderne fitnessruimte met professionele apparatuur open 24/7</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🏖️ Strandservice</strong>
+                    <p>Privé strandhuisjes en loungers beschikbaar voor hotelgasten</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🍷 Room Service</strong>
+                    <p>Heerlijk eten en drinken op elk moment van de dag in uw appartement</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🧖 Wellness</strong>
+                    <p>Volledige spa met massages, behandelingen en wellnessprogramma's</p>
+                </div>
+                <div class="feature-box">
+                    <strong>🎉 Concierge</strong>
+                    <p>Persoonlijke conciergeservice voor restaurants, activiteiten en meer</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="extra-voorzieningen">
+            <h2>🌟 Extra Amenities</h2>
+            <p class="section-description">
+                Wij bieden meer dan alleen appartementen. Ontdek alle extra's die uw verblijf nog specialer maken.
+            </p>
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏊</div>
+                    <div class="amenity-content">
+                        <h3>Zwembad</h3>
+                        <p>Olympisch zwembad met verwarmde wateren en zonneweide</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🍽️</div>
+                    <div class="amenity-content">
+                        <h3>Sterrenrestaurant</h3>
+                        <p>Michelin-gesternd restaurant met internationale en lokale gerechten</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🎰</div>
+                    <div class="amenity-content">
+                        <h3>Nachtclub</h3>
+                        <p>Exclusieve nachtclub met DJ's en live entertainment</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">📚</div>
+                    <div class="amenity-content">
+                        <h3>Bibliotheek</h3>
+                        <p>Rustige bibliotheek met duizenden boeken en comfortabele leeshoeken</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🎮</div>
+                    <div class="amenity-content">
+                        <h3>Gaming Lounge</h3>
+                        <p>State-of-the-art gaming setup met Nintendo Switch, PS5 en Xbox</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🧘</div>
+                    <div class="amenity-content">
+                        <h3>Yoga & Meditatie</h3>
+                        <p>Dagelijkse yogasessies en meditatieklassen in onze zenruimte</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🚴</div>
+                    <div class="amenity-content">
+                        <h3>Fietsverhuur</h3>
+                        <p>Premium elektrische fietsen om de kust te verkennen</p>
+                    </div>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">👶</div>
+                    <div class="amenity-content">
+                        <h3>Kinderdagverzorging</h3>
+                        <p>Professionele kinderopvang zodat ouders kunnen ontspannen</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reviews">
+            <h2>⭐ Wat Gasten Zeggen</h2>
+            <p class="section-description">
+                Lees waarom duizenden gasten Palace Hotel hun favoriete bestemming noemen.
+            </p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Palace Hotel is absoluut spectaculair! Het uitzicht, het comfort, de service - alles was perfect. 
+                        We komen zeker terug!"
+                    </p>
+                    <p class="review-author">— Maria & Jan de Vries</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Het beste hotel aan het strand. De appartementen zijn luxueus, het personeel is ongelooflijk vriendelijk 
+                        en de locatie kan niet beter!"
+                    </p>
+                    <p class="review-author">— Sophie Amsterdam</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Ons huwelijksweekend was perfect! Palace Hotel zorgt voor alles. Van het Penthouse tot de spa - alles was 
+                        geweldig!"
+                    </p>
+                    <p class="review-author">— Thomas & Ellen Smit</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Familievakantie hier was onvergetelijk. De kinderen vonden het zwembad geweldig, wij waren dol op de spa. Alle sterren!"
+                    </p>
+                    <p class="review-author">— Familie Bergman</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Uitstekende service, prachtige kamers, en de beste ligging in Zandvoort. Dit is ware luxe aan het strand!"
+                    </p>
+                    <p class="review-author">— Robert Van der Meer</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Elke detail is perfect. Van het interieur tot de medewerkers - iedereen is gericht op uw tevredenheid. 
+                        Fantastisch!"
+                    </p>
+                    <p class="review-author">— Laura & Pieter Jansen</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="locatie">
+            <h2>📍 Locatie & Bereikbaarheid</h2>
+            <div class="location-info">
+                <div>
+                    <h3>Perfecte Locatie in Zandvoort aan Zee</h3>
+                    <div class="location-detail">
+                        <strong>Zandvoort aan Zee</strong>
+                        Direct aan het beroemde zand- en strandfront van Zandvoort, een van de populairste badplaatsen van Nederland.
+                    </div>
+                    <div class="location-detail">
+                        <strong>Bereikbaarheid</strong>
+                        Slechts 15 minuten rijden van Amsterdam, 10 minuten van Haarlem, en 30 minuten van het vliegveld Schiphol.
+                    </div>
+                    <div class="location-detail">
+                        <strong>Openbaar vervoer</strong>
+                        Het treinstation is slechts 2 minuten lopen. Directe treinen naar Amsterdam, Rotterdam en andere steden.
+                    </div>
+                    <div class="location-detail">
+                        <strong>Attracties</strong>
+                        Vlak bij het beroemde Circus Theater, vele restaurants, winkels en het Formule 1-circuit.
+                    </div>
+                </div>
+                <div>
+                    <h3>Waarom Zandvoort Kiezen?</h3>
+                    <div class="location-detail">
+                        <strong>Stranden</strong>
+                        13 km van de mooiste stranden van Nederland met een levendig strandleven
+                    </div>
+                    <div class="location-detail">
+                        <strong>Natuur</strong>
+                        Dicht bij het Zandvoortse Bos en de Amsterdamse Waterleiding Duinen voor wandelingen
+                    </div>
+                    <div class="location-detail">
+                        <strong>Cultuur</strong>
+                        Veel musea, theaters en de jaarlijkse Formule 1 Grand Prix in Zandvoort
+                    </div>
+                    <div class="location-detail">
+                        <strong>Accommodatie</strong>
+                        Alleen de beste restaurants, winkels en entertainment op loopafstand
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reserveren" class="contact-section">
+            <h2>📞 Neem Contact Met Ons Op</h2>
+            <p class="cta-description">Boek nu uw droomvakantie of stel vragen aan ons vriendelijke team. Wij helpen u graag!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📧 E-mail</h3>
+                    <a href="mailto:tresjuice@hotmail.com">tresjuice@hotmail.com</a>
+                    <p style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-light);">Reactie binnen 2 uur</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 Telefoonnummer</h3>
+                    <a href="tel:0612155886">06 - 12 15 58 86</a>
+                    <p style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-light);">Bel ons 07:00 - 22:00 (dagelijks)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p style="font-size: 1.3rem; font-weight: 700;">🏨 Palace Hotel Zandvoort aan Zee</p>
+        <p>De ultieme bestemming voor luxe en ontspanning aan het Nederlandse strand</p>
+        <div class="footer-links">
+            <a href="#over-ons">Over Ons</a>
+            <a href="#kamers">Kamers</a>
+            <a href="#voorzieningen">Voorzieningen</a>
+            <a href="#locatie">Locatie</a>
+            <a href="#reserveren">Boeken</a>
+        </div>
+        <p>&copy; 2026 Palace Hotel. Alle rechten voorbehouden.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
